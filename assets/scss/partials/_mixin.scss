@@ -1,0 +1,4 @@
+@mixin dynamicButton ($btnColor, $padding) {
+    background-color: $btnColor;
+    padding: 3px;
+}

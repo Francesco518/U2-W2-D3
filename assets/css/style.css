@@ -1,0 +1,64 @@
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav div > a {
+  margin-right: 50px;
+  font-size: 30px;
+}
+
+header {
+  background-color: rgb(216, 132, 132);
+  width: 100%;
+  padding: 20px;
+}
+header div > p {
+  font-size: 30px;
+}
+header div > img {
+  width: 300px;
+}
+
+.box {
+  display: flex;
+}
+
+.box2 {
+  width: 50%;
+}
+
+.box3 {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+
+main {
+  display: flex;
+}
+
+.main-box-1 {
+  padding: 20px;
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+}
+.main-box-1 .little-box {
+  width: 100%;
+}
+.main-box-1 img {
+  width: 91%;
+  border: 3px solid black;
+  box-shadow: 13px 12px;
+}/*# sourceMappingURL=style.css.map */

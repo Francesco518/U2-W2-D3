@@ -1,0 +1,66 @@
+@import "./partials/color";
+@import "./partials/reset";
+@import "./partials/spacing";
+@import "./partials/size";
+@import "./partials/mixin";
+nav { 
+background-color: $nav-color;
+display: flex;
+justify-content: space-between;
+align-items: center;
+ div > a {
+    margin-right:$margin-right;
+    font-size: $font-size;
+    
+ }
+}
+
+header {
+    background-color: $header-color;
+    width: $width;
+    padding: $padding;
+   
+    div > p {
+        font-size: $font-size;
+    }
+    div > img {
+        width: $widthimg;
+    }
+   
+    
+}
+
+.box {
+    display: flex;
+}
+
+.box2{
+    width: 50%;
+}
+
+.box3 {
+   width: 50%;
+   display: flex;
+   justify-content: end;
+}
+
+main {
+    display: flex;
+}
+
+.main-box-1 {
+padding: 20px;
+background-color: red;
+display: flex;
+justify-content: space-between;
+.little-box {
+    width: 100%;
+}
+img {
+    width: 91%;
+    border: 3px solid black;
+    box-shadow: 13px 12px;
+
+}
+}
+
